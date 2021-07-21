@@ -1,6 +1,9 @@
 # Description
 OneMax Problem benchmark test for Genetic Algorithm.
 
+Example of Result
+<img src="result.png"></img>
+
 # Result
 
 - Comparison with Population size and Max Generation / Code Execution Time Duration
