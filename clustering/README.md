@@ -16,7 +16,7 @@
 
 ### Usage example
 ```python
-km = Kmeans(data, n_cluster, max_trial)
+km = clustering.Kmeans(data, n_cluster, max_trial)
 km.fit()
 predicted_label = km.predict(test_data)
 ```
@@ -34,7 +34,7 @@ predicted_label = km.predict(test_data)
 
 ### Usage example
 ```python
-fcm = FCM(data, n_cluster, m_fuzziness, max_trial)
+fcm = clustering.FCM(data, n_cluster, m_fuzziness, max_trial)
 fcm.fit()
 predicted_posibility = fcm.predict(test_data)
 ```
