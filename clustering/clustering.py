@@ -213,28 +213,3 @@ def gen_random_data(n_cluster: int, size: int, dimension: int) -> np.ndarray:
             data = np.concatenate([data, create_data(size, dimension)], axis=0)
     np.random.shuffle(data)
     return data
-
-def main():
-    n_cluster, data_size, dim = 10, 100, 2
-    max_trial = 300
-    random_data = gen_random_data(n_cluster, data_size, dim)
-
-    km = Kmeans(random_data, n_cluster, max_trial)
-    km.fit()
-
-    fz = FCM(random_data, n_cluster, 2, max_trial)
-    fz.fit()
-
-    test_data = np.array([[10, 10]])
-    w_km = km.predict(test_data)
-    w_fz = fz.predict(test_data)
-
-    print("\n##################### Fit Result #####################")
-    print("K-Means Algorithm said that the class of test data is ")
-    print(f"     Class {w_km[0]} [{km.centroid[w_km[0]][0]: 3.3f}, {km.centroid[w_km[0]][1]: 3.3f}]:\t100.0%")
-    print("Fuzzy C-Means Algorithm said that the class of test data is ")
-    for i, w in enumerate(w_fz):
-        print(f"     Class {i} [{fz.mu[i][0]: 3.3f}, {fz.mu[i][1]: 3.3f}]:\t{100*w: 2.1f}%")
-
-if __name__ == "__main__":
-    main()
