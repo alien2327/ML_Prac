@@ -21,6 +21,7 @@ km.fit()
 predicted_label = km.predict(test_data)
 ```
 
+### Random sample clustering example
 ![example](join.png)
 
 ## Fuzzy C-Means for Soft-Clustering
@@ -37,6 +38,9 @@ fcm = FCM(data, n_cluster, m_fuzziness, max_trial)
 fcm.fit()
 predicted_posibility = fcm.predict(test_data)
 ```
+
+### Image segmentation example using FCM class
+
 
 ## Reference
 1. [K Means Clustering, Wikipedia](https://en.wikipedia.org/wiki/K-means_clustering)
