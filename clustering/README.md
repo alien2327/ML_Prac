@@ -1,5 +1,13 @@
 # Hard-Clustering and Soft-Clustering
 
+I made basic clustering algorithm using python from scratch with numpy. Not for general use, not optimized, just for study.
+
+## Requirement
+```
+numpy
+tqdm
+```
+
 ## K-Means++ for Hard-Clustering
 ### Basic Algorithm of K-Means
 1. Pick n data points that will act as the initial centroids.
