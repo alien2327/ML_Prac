@@ -1,6 +1,8 @@
 # Hard-Clustering and Soft-Clustering
 
 ## K-Means++ for Hard-Clustering
+[Ref](https://en.wikipedia.org/wiki/K-means_clustering)
+
 ### Basic Algorithm of K-Means
 1. Pick n data points that will act as the initial centroids.
 2. Calculate the Euclidean distance of each data point from each of the centroid points selected in step 1.
@@ -26,8 +28,8 @@ predicted_label = km.predict(test_data)
 1. Choose a number of clusters.
 2. Assign coefficients randomly to each data point for being in the clusters.
 3. Repeat until the algorithm has converged.
- 1. Compute the centroid for each cluster.
- 2. For each data point, compute its coefficients of being in the clusters.
+ - Compute the centroid for each cluster.
+ - For each data point, compute its coefficients of being in the clusters.
 
 ### Usage example
 ```python
