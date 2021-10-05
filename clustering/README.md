@@ -28,3 +28,10 @@ predicted_label = km.predict(test_data)
 3. Repeat until the algorithm has converged.
     3-1. Compute the centroid for each cluster.
     3-2. For each data point, compute its coefficients of being in the clusters.
+
+### Usage example
+```python
+fcm = FCM(data, n_cluster, m_fuzziness, max_trial)
+fcm.fit()
+predicted_posibility = fcm.predict(test_data)
+```
