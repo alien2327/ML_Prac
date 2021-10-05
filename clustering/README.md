@@ -3,10 +3,9 @@
 I made basic clustering algorithm using python from scratch with numpy. Not for general use, not optimized, just for study.
 
 ## Requirement
-```
-numpy
-tqdm
-```
+- Python 3.x
+- numpy
+- tqdm
 
 ## K-Means++ for Hard-Clustering
 ### Basic Algorithm of K-Means
