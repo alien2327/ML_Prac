@@ -26,8 +26,8 @@ predicted_label = km.predict(test_data)
 1. Choose a number of clusters.
 2. Assign coefficients randomly to each data point for being in the clusters.
 3. Repeat until the algorithm has converged.
-    3-1. Compute the centroid for each cluster.
-    3-2. For each data point, compute its coefficients of being in the clusters.
+3-1. Compute the centroid for each cluster.
+3-2. For each data point, compute its coefficients of being in the clusters.
 
 ### Usage example
 ```python
