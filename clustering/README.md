@@ -1,8 +1,6 @@
 # Hard-Clustering and Soft-Clustering
 
 ## K-Means++ for Hard-Clustering
-[Ref](https://en.wikipedia.org/wiki/K-means_clustering)
-
 ### Basic Algorithm of K-Means
 1. Pick n data points that will act as the initial centroids.
 2. Calculate the Euclidean distance of each data point from each of the centroid points selected in step 1.
@@ -37,3 +35,7 @@ fcm = FCM(data, n_cluster, m_fuzziness, max_trial)
 fcm.fit()
 predicted_posibility = fcm.predict(test_data)
 ```
+
+## Reference
+1. [K Means Clustering, Wikipedia](https://en.wikipedia.org/wiki/K-means_clustering)
+2. [Fuzzy Clustering, Wikipedia](https://en.wikipedia.org/wiki/Fuzzy_clustering)
