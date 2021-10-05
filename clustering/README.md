@@ -40,7 +40,7 @@ predicted_posibility = fcm.predict(test_data)
 ```
 
 ### Image segmentation example using FCM class
-
+![example](join_1.png)
 
 ## Reference
 1. [K Means Clustering, Wikipedia](https://en.wikipedia.org/wiki/K-means_clustering)
