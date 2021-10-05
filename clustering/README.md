@@ -21,7 +21,7 @@ km.fit()
 predicted_label = km.predict(test_data)
 ```
 
-[!example](join.png)
+![example](join.png)
 
 ## Fuzzy C-Means for Soft-Clustering
 ### Basic Algorithm
