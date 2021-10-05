@@ -2,6 +2,8 @@
 
 I made basic clustering algorithm using python from scratch with numpy. Not for general use, not optimized, just for study.
 
+Download or copy [clustering.py](clustering.py) from this page, and use as a module or as a script directly.
+
 ## Requirement
 - Python 3.x
 - numpy
