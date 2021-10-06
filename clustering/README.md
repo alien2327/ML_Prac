@@ -12,7 +12,7 @@ Download or copy [clustering.py](clustering.py) from this page, and use as a mod
 ## K-Means++ for Hard-Clustering
 ### Basic Algorithm of K-Means
 
-![formula](https://render.githubusercontent.com/render/math?math=L=\mathrm{arg}\mathrm{min}_{V_{1},\vdots,V_{k}}\sum_{i=1}¥{n}\mathrm{min}_{j}||x_{i}-V_{j}||^{2})
+![formula](https://render.githubusercontent.com/render/math?math=L=\mathrm{arg}\mathrm{min}_{V_{1},\cdots,V_{k}}\sum_{i=1}^{n}\mathrm{min}_{j}||x_{i}-V_{j}||^{2})
 
 1. Pick n data points that will act as the initial centroids.
 2. Calculate the Euclidean distance of each data point from each of the centroid points selected in step 1.
