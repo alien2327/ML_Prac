@@ -7,7 +7,7 @@ Download or copy [clustering.py](clustering.py) from this page, and use as a mod
 ## Requirement
 - Python 3.x
 - numpy
-- tqdm
+- tqdm <- if no need, you can exclude this module
 
 ## K-Means++ for Hard-Clustering
 ### Basic Algorithm of K-Means
